@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="eland-plugin-getVersion"
+    id="eland-plugin-yearPicker"
     version="1.0.0">
     <name>ElandYearPicker(Android)</name>
     <description>Eland Plguin YearPicker</description>
