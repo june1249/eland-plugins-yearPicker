@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="eland-plugin-getVersion"
+    version="1.0.0">
+    <name>ElandYearPicker(Android)</name>
+    <description>Eland Plguin YearPicker</description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/june1249/eland-plugins-yearPicker.git</repo>
+    <issue>https://github.com/june1249/eland-plugin-yearPicker/issues</issue>
+
+    <js-module src="www/elandyearPicker.js" name="YearPicker">
+      <clobbers target="eland.plugin.yearPicker" />
+    </js-module>
+
+    <!-- android -->
+    <platform name="android">
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="YearPicker">
+          <param name="android-package" value="com.eland.plugins.YearMonthCalendar" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+      <source-file src="src/android/com/eland/plugins/YearMonthCalendar.java" target-dir="src/com/eland/plugins/" />
+      <resource-file src="src/android/res/layout/month_year_picker.xml" target="res/layout/month_year_picker.xml" />
+    </platform>
+</plugin>

@@ -1,0 +1,26 @@
+{
+  "name": "eland-plugins-yearPicker",
+  "version": "1.0.0",
+  "description": "Eland Plugins YearPicker(Android)",
+  "cordova": {
+    "id": "eland-plugins-yearPicker",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/june1249/eland-plugins-yearPicker.git"
+  },
+  "keywords": [
+    "Eland",
+    "yearPicker",
+    "cordova-android"
+  ],
+  "author": "ElandSystems",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/june1249/eland-plugins-yearPicker/issues"
+  },
+  "homepage": "https://github.com/june1249/eland-plugins-yearPicker#readme"
+}
