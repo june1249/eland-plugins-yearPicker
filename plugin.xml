@@ -23,6 +23,7 @@
         </feature>
       </config-file>
       <source-file src="src/android/com/eland/plugins/YearMonthCalendar.java" target-dir="src/com/eland/plugins/" />
+      <source-file src="src/android/com/eland/plugins/MonthYearPicker.java" target-dir="src/com/eland/plugins/" />
       <resource-file src="src/android/res/layout/month_year_picker.xml" target="res/layout/month_year_picker.xml" />
     </platform>
 </plugin>
